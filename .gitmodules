@@ -1,0 +1,99 @@
+[submodule "vimfiles/bundle/ack.vim"]
+	path = vimfiles/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "vimfiles/bundle/ctrlp.vim"]
+	path = vimfiles/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "vimfiles/bundle/delimitMate"]
+	path = vimfiles/bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule "vimfiles/bundle/emmet-vim"]
+	path = vimfiles/bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
+[submodule "vimfiles/bundle/haskellmode-vim"]
+	path = vimfiles/bundle/haskellmode-vim
+	url = https://github.com/lukerandall/haskellmode-vim
+[submodule "vimfiles/bundle/LaTeX-Box"]
+	path = vimfiles/bundle/LaTeX-Box
+	url = git://github.com/LaTeX-Box-Team/LaTeX-Box.git
+[submodule "vimfiles/bundle/neco-ghc"]
+	path = vimfiles/bundle/neco-ghc
+	url = https://github.com/eagletmt/neco-ghc
+[submodule "vimfiles/bundle/neocomplcache.vim"]
+	path = vimfiles/bundle/neocomplcache.vim
+	url = https://github.com/Shougo/neocomplcache.vim.git
+[submodule "vimfiles/bundle/nerdtree"]
+	path = vimfiles/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vimfiles/bundle/nerdtree-ack"]
+	path = vimfiles/bundle/nerdtree-ack
+	url = https://github.com/tyok/nerdtree-ack.git
+[submodule "vimfiles/bundle/numbers.vim"]
+	path = vimfiles/bundle/numbers.vim
+	url = https://github.com/myusuf3/numbers.vim.git
+[submodule "vimfiles/bundle/snipmate.vim"]
+	path = vimfiles/bundle/snipmate.vim
+	url = git://github.com/msanders/snipmate.vim.git
+[submodule "vimfiles/bundle/syntastic"]
+	path = vimfiles/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "vimfiles/bundle/tagbar"]
+	path = vimfiles/bundle/tagbar
+	url = git://github.com/majutsushi/tagbar
+[submodule "vimfiles/bundle/vim-classpath"]
+	path = vimfiles/bundle/vim-classpath
+	url = git://github.com/tpope/vim-classpath.git
+[submodule "vimfiles/bundle/vim-clojure-static"]
+	path = vimfiles/bundle/vim-clojure-static
+	url = https://github.com/guns/vim-clojure-static.git
+[submodule "vimfiles/bundle/vim-coffee-script"]
+	path = vimfiles/bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "vimfiles/bundle/vim-colors-solarized"]
+	path = vimfiles/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "vimfiles/bundle/vim-commentary"]
+	path = vimfiles/bundle/vim-commentary
+	url = git://github.com/tpope/vim-commentary.git
+[submodule "vimfiles/bundle/vim-css3-syntax"]
+	path = vimfiles/bundle/vim-css3-syntax
+	url = https://github.com/hail2u/vim-css3-syntax.git
+[submodule "vimfiles/bundle/vim-easymotion"]
+	path = vimfiles/bundle/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git
+[submodule "vimfiles/bundle/vim-eco"]
+	path = vimfiles/bundle/vim-eco
+	url = https://github.com/AndrewRadev/vim-eco.git
+[submodule "vimfiles/bundle/vim-fireplace"]
+	path = vimfiles/bundle/vim-fireplace
+	url = git://github.com/tpope/vim-fireplace.git
+[submodule "vimfiles/bundle/vim-fontsize"]
+	path = vimfiles/bundle/vim-fontsize
+	url = https://github.com/drmikehenry/vim-fontsize.git
+[submodule "vimfiles/bundle/vim-less"]
+	path = vimfiles/bundle/vim-less
+	url = https://github.com/groenewege/vim-less
+[submodule "vimfiles/bundle/vim-matchit"]
+	path = vimfiles/bundle/vim-matchit
+	url = git://github.com/tsaleh/vim-matchit.git
+[submodule "vimfiles/bundle/vim-maximizer"]
+	path = vimfiles/bundle/vim-maximizer
+	url = https://github.com/szw/vim-maximizer.git
+[submodule "vimfiles/bundle/vim-misc"]
+	path = vimfiles/bundle/vim-misc
+	url = https://github.com/xolox/vim-misc.git
+[submodule "vimfiles/bundle/vim-session"]
+	path = vimfiles/bundle/vim-session
+	url = https://github.com/xolox/vim-session.git
+[submodule "vimfiles/bundle/vim-speeddating"]
+	path = vimfiles/bundle/vim-speeddating
+	url = https://github.com/tpope/vim-speeddating.git
+[submodule "vimfiles/bundle/vim-stylish-haskell"]
+	path = vimfiles/bundle/vim-stylish-haskell
+	url = https://github.com/nbouscal/vim-stylish-haskell
+[submodule "vimfiles/bundle/vim-surround"]
+	path = vimfiles/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "vimfiles/bundle/vim-windowswap"]
+	path = vimfiles/bundle/vim-windowswap
+	url = https://github.com/wesQ3/vim-windowswap
