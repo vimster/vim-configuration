@@ -62,3 +62,9 @@ Latex
 =====
 ,lm Latexmk
 ,lv LatexView
+
+
+Easy Align
+==========
+visual: <Enter>=
+visual: <Enter>2=
