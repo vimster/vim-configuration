@@ -97,3 +97,6 @@
 [submodule "vimfiles/bundle/vim-windowswap"]
 	path = vimfiles/bundle/vim-windowswap
 	url = https://github.com/wesQ3/vim-windowswap
+[submodule "vimfiles/bundle/vim-easy-align"]
+	path = vimfiles/bundle/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align

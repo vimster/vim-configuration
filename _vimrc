@@ -116,37 +116,6 @@ set number
 :imap <C-BS> <C-W>
 
 
-" Parentheses 
-let g:niji_dark_colours = [
-  \ [ '25' , '#718293'],
-  \ [ '24' , '#6670b6'],
-  \ [ '23' , '#5a8aa5'],
-  \ [ '22' , '#609371'],
-  \ [ '21' , '#828260'],
-  \ [ '20' , '#93666a'],
-  \ [ '19' , '#9060a0'],
-  \ [ '24' , '#6670b6'],
-  \ [ '23' , '#5a8aa5'],
-  \ [ '22' , '#609371'],
-  \ [ '21' , '#828260'],
-  \ [ '20' , '#93666a'],
-  \ [ '19' , '#9060a0'],
-  \ [ '24' , '#6670b6'],
-  \ [ '23' , '#5a8aa5'],
-  \ [ '22' , '#609371'],
-  \ [ '21' , '#828260'],
-  \ [ '20' , '#93666a'],
-  \ [ '19' , '#9060a0'],
-  \ [ '24' , '#6670b6'],
-  \ [ '23' , '#5a8aa5'],
-  \ [ '22' , '#609371'],
-  \ [ '21' , '#828260'],
-  \ [ '20' , '#93666a'],
-  \ [ '19' , '#9060a0'],
-  \ ]
-
-
-
 " latexbox
 map <leader>lm :Latexmk<cr>
 map <leader>lv :LatexView<cr>
@@ -179,3 +148,9 @@ au FileType haskell nnoremap <buffer> <silent> <F2> :HdevtoolsClear<CR>
 au BufEnter *.hs compiler ghc
 :let g:haddock_browser="C:/Program Files (x86)/Mozilla Firefox/firefox.exe"
 :let g:haddock_docdir="C:/Program Files/Haskell Platform/2014.2.0.0/doc/html"
+
+" Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
+vmap <Enter> <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
