@@ -1,0 +1,25 @@
+﻿if has("gui_running")
+    colorscheme Tomorrow-Night
+    set lines=40
+    set columns=150
+    " set anti enc=utf-8
+    " set guifont=Source\ Code\ Pro\ 11
+    " set guifont=Source\ Code\ Pro\ for\ Powerline\ 12    
+    set gfn=Sauce\ Code\ Powerline:h11:cANSI
+else
+    colorscheme Tomorrow-Night
+endif	
+
+" colorscheme wombat
+
+" set guifont=Consolas:h11:cDEFAULT
+
+"remove menu bar
+set guioptions-=m
+
+" remove tool bar
+set guioptions-=T
+
+" right hand scroll bar
+set guioptions-=r
+set guioptions-=L

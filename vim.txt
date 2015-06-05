@@ -1,0 +1,64 @@
+Conque: Extension for terminal window
+
+C:\Program Files\Vim
+
+wombat theme
+http://benaiah41.wordpress.com/2012/01/17/customizing-gvim-in-windows-7/
+
+
+REGEDIT4 Context menu windows
+
+[HKEY_CLASSES_ROOT\Folder\shell\VimHere]
+@="Open Vim here"
+
+[HKEY_CLASSES_ROOT\Folder\shell\VimHere\command]
+@="C:\\Program Files\\Vim\\vim72\\gvim.exe ."
+
+
+in mswin.vim in c./programme/vim/vim74
+" CTRL-A is Select all
+"noremap <C-A> gggH<C-O>G
+"inoremap <C-A> <C-O>gg<C-O>gH<C-O>G
+"cnoremap <C-A> <C-C>gggH<C-O>G
+"onoremap <C-A> <C-C>gggH<C-O>G
+"snoremap <C-A> <C-C>gggH<C-O>G
+"xnoremap <C-A> <C-C>ggV
+
+
+Clojure Programming
+* vim-clojure-static
+* rainbow_parentheses.vim
+* vim fireplace (example: https://github.com/ctford/vim-fireplace-easy)
+
+fireplace:
+[d: open source code
+cqc: open console
+cpr: reload file
+cpp: eval current block
+cpab: eval outer bracket
+K: open Doc
+
+Encoding
+========
+* view encoding: :set fileencoding
+* change encoding: :set fileencoding=utf-8
+
+Window Management
+=================
+- ctrl+w
+- =: same size for all windows
+
+Nerdtree
+========
+open/hide: ctrl+n
+
+font-size
+=========
+,,+: increase font size
+,,-: decrease font size
+
+
+Latex
+=====
+,lm Latexmk
+,lv LatexView
