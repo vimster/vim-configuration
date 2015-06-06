@@ -137,17 +137,12 @@ let g:syntastic_mode_map={"mode":"passive", "active_filetypes": [], "passive_fil
 " syntastic haskell
 let g:syntastic_haskell_checkers = ['hlint', 'ghc_mod']
 au FileType haskell nnoremap <buffer> <F5> :SyntasticCheck<CR>
-"let g:syntastic_haskell_hdevtools_args = "--start-server"
-
-" hdevtools for haskell
-au FileType haskell nnoremap <buffer> <F1> :HdevtoolsType<CR>
-au FileType haskell nnoremap <buffer> <silent> <F2> :HdevtoolsClear<CR>
-" au FileType haskell nnoremap <buffer> <silent> <F3> :HdevtoolsInfo<CR>
 
 " haskellmode
 au BufEnter *.hs compiler ghc
 :let g:haddock_browser="C:/Program Files (x86)/Mozilla Firefox/firefox.exe"
 :let g:haddock_docdir="C:/Program Files/Haskell Platform/2014.2.0.0/doc/html"
+:let g:haskellmode_completion_haddock=0
 
 " Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
 vmap <Enter> <Plug>(EasyAlign)

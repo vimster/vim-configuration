@@ -1,3 +1,14 @@
+Installation
+------------
+
+cabal install stylish-haskell
+
+
+
+
+
+
+
 Conque: Extension for terminal window
 
 C:\Program Files\Vim
@@ -68,3 +79,5 @@ Easy Align
 ==========
 visual: <Enter>=
 visual: <Enter>2=
+
+
