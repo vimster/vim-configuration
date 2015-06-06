@@ -1,7 +1,9 @@
 Installation
 ------------
 
+Haskell
 cabal install stylish-haskell
+cabal install ghc-mod
 
 
 
