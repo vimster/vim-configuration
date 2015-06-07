@@ -9,6 +9,7 @@ cabal install ghc-mod
 
 pull all submodules
 git submodule foreach git pull origin master
+git submodule update --init
 
 
 
