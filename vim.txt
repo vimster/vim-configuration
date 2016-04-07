@@ -86,3 +86,8 @@ visual: <Enter>=
 visual: <Enter>2=
 
 
+Multi Cursors
+=============
+* ctrl+n
+* ctrl+p: unselect and go back
+* ctrl+x: skip actual marker
