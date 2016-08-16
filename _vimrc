@@ -100,6 +100,7 @@ set softtabstop=2
 autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
 nmap <leader>r :NERDTreeFind<CR>
+let NERDTreeIgnore = ['\.pyc$', '\.aux$', '\.bbl$', '\.blg$', '\.fdb_latexmk$', '\.fls$', '\.pdf$', '\.latexmain$', '\.toc$', '\.cls$']
 
 
 "plugins
