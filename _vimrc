@@ -1,5 +1,5 @@
-﻿set nocompatible
-" set encoding=utf-8
+set nocompatible
+set encoding=utf-8
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
@@ -30,6 +30,11 @@ function MyDiff()
 endfunction
 
 call pathogen#infect()
+
+" disable backup files
+set nobackup
+set noswapfile
+set noundofile
 
 " bind leader key to ","
 :let mapleader = ","
@@ -120,6 +125,7 @@ set number
 " latexbox
 map <leader>lm :Latexmk<cr>
 map <leader>lv :LatexView<cr>
+let g:LatexBox_latexmk_async=1
 
 
 " syntastic
